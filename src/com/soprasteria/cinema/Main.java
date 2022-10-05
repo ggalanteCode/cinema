@@ -11,7 +11,8 @@ public class Main {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("Quanti anni hai?: ");
-		
+		etaUtente = s.nextInt();
+		s.nextLine();
 	}
 
 }
